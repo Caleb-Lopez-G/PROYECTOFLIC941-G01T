@@ -1,0 +1,57 @@
+
+      
+      .topDiv{
+        background-color: #d14444;    
+        width: 100%;
+        bottom: 60px;
+        padding: 1%;
+        align-items: center;
+        text-align: center;
+      }
+        .myDiv {
+        background-color: #d14444;    
+        width: 20%;
+        bottom: 60px;
+        padding: 1%;
+        } 
+        
+        
+        .secondDiv {
+            background-color: #aa3030;    
+            width: 100%;
+            bottom: 60px;
+            padding: 5%;
+            } 
+
+        Body {background-color:#aa3030};
+        h1 {
+            text-decoration-color: aliceblue;
+            color: white;
+        }
+        .xyz {
+            background-size: auto;
+            text-align: center;
+            padding-top: 0px;
+            align-items: center;
+        }
+        .btn-circle.btn-sm {
+            width: 30px;
+            height: 30px;
+            padding: 0px 0px;
+            border-radius: 15px;
+            font-size: 8px;
+            text-align: center;
+            border-width: 3px;
+            border-color: rgb(0, 0, 0) ;
+        }
+    
+        .btn-circle.btn-xl {
+            width: 70px;
+            height: 70px;
+            padding: 10px 16px;
+            border-radius: 35px;
+            font-size: 12px;
+            text-align: center;
+            border-color: aliceblue ;
+            border-width: 5px;
+        }
