@@ -1,0 +1,98 @@
+
+      
+      .topDiv{
+        background-color: #d14444;    
+        width: 100%;
+        bottom: 60px;
+        padding: 1%;
+        align-items: center;
+        text-align: center;
+      }
+        .myDiv {
+        background-color: #d14444;    
+        width: 20%;
+        bottom: 60px;
+        padding: 1%;
+        } 
+        
+        
+        .secondDiv {
+            background-color: #aa3030;    
+            width: 100%;
+            bottom: 60px;
+            padding: 5%;
+            } 
+
+        Body {background-color:#aa3030}
+        h1 {
+            text-align: center;
+            text-decoration-color: aliceblue;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            text-decoration-color: rgba(255, 255, 255, 0.75);
+            color: rgba(255, 255, 255, 0.75);
+        }
+        .xyz {
+            background-size: auto;
+            text-align: center;
+            padding-top: 0px;
+            align-items: center;
+        }
+        .btn-circle.btn-sm {
+            width: 30px;
+            height: 30px;
+            padding: 0px 0px;
+            border-radius: 15px;
+            font-size: 8px;
+            text-align: center;
+            border-width: 3px;
+            border-color: rgb(0, 0, 0) ;
+        }
+    
+        .btn-circle.btn-xl {
+            width: 70px;
+            height: 70px;
+            padding: 10px 16px;
+            border-radius: 35px;
+            font-size: 12px;
+            text-align: center;
+            border-color: aliceblue ;
+            border-width: 5px;
+        }
+
+        .form {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          
+
+          .centerDiv{
+            background-color: #aa3030;    
+            width: 100%;
+            height: 100%;
+            padding: 2.5%;
+            align-items: center;
+          }
+
+          .addMore{
+            border: none;
+            width: 32px;
+            height: 32px;
+            background-color: #eee;
+            transition: all ease-in-out 0.2s;
+            cursor: pointer;
+          }
+          .addMore:hover{
+            border: 1px solid #888;
+            background-color: #ddd;
+          }
+
+          
