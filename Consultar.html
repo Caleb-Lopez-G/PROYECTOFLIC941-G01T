@@ -2,50 +2,32 @@
 <html>
   
 <head>
-    <title>
-Consultar
-
-    </title>
+    <title>Consultar</title>
       
     <meta charset="utf-8"> 
       
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-      
-    <link rel="stylesheet" href= 
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
-        
-    <script src= 
-"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
-    </script> 
-        
-    <script src= 
-"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> 
-    </script> 
-        
-    <script src= 
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> 
-    </script> 
-      
-      <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">   
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>        
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>         
+    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>    
+    <link rel="stylesheet" href="Style.css">
+    <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
 
-
-
-
-
-
-<div class = "topDiv">
-    <div class="myDiv">
-        <button type="button" class="btn btn-primary btn-circle btn-xl"></button>
-        <button type="button" class="btn btn-warning btn-circle btn-sm"></button>
-        <button type="button" class="btn btn-success btn-circle btn-sm"></button>
-        <button type="button" class="btn btn-danger btn-circle btn-sm"></button>
+    
+    <div class = "topDiv">
+        <div class="myDiv">
+            <a href="Depositar.html" ><button type="button" class="btn btn-primary btn-circle btn-xl"  title="Transacciones"></button></a>
+            <a href="Historial.html" ><button type="button" class="btn btn-warning btn-circle btn-sm" title ="Historial"></button></a>
+            <a href="Graficos.html" ><button type="button" class="btn btn-success btn-circle btn-sm" title ="Gráficas"></button></a>
+           <a href="Index.html" ><button type="button" class="btn btn-danger btn-circle btn-sm" title ="Cerrar sesión"></button> </a>
+        </div>
     </div>
-</div>
 
 </head>
   
 <body class="xyz" style="background-color:#aa3030;">
-    
+    <script src="JavaScript.js"></script>    
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -69,12 +51,12 @@ Consultar
     <div class="d-flex justify-content-center align-items-center" style="background-color:#aa3030;">
     <div
     class="bg-white p-5  text-secondary shadow"
-    style="width: 25rem"
+    style="width: 50rem"
   >
     
-    <div class="text-center fs-1 fw-bold"> Su saldo disponibles es: $ 500.00</div>
-
-    
+    <div class="text-center fs-1 fw-bold"><script>document.write("Su saldo disponibles es: $ " +Saldo);</script></div>
+    <br>
+    <img src="pokemoney.png"alt="pin-icon" style="height: 6rem"/>
 </div> 
 </body>
   
